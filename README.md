@@ -53,7 +53,7 @@ It efficiently handles vehicle entry, exit, slot allocation, and waiting queues 
 You can download the detailed project report from below:
 
 - 📘 **DOC Format**: [Download Report](https://drive.google.com/file/d/1WSws9_vWP1e58hVn8el-jRUdBqTP2ACD/view?usp=sharing)  
-- 📕 **PDF Format**: [Download Report](report.pdf)  
+- 📕 **PDF Format**: [Download Report](https://docs.google.com/document/d/1XqCi90uhW7Yc4owtmi0croPM91HNJiIM/edit?usp=sharing&ouid=103502912315423881831&rtpof=true&sd=true)  
 
 ---
 
