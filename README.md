@@ -1,43 +1,79 @@
-# Parking Management System
+# 🚗 Parking Management System
 
-## Description
-This C++ program implements a simple Parking Management System that allows users to park vehicles, remove vehicles, view the parking status, and manage a waiting queue when the parking is full. It uses a console-based interface and is designed for Windows systems.
+<p align="center">
+  <b>A Simple yet Efficient Console-Based Parking Management System in C++</b><br>
+  Manage parking slots, vehicle flow, and waiting queues with ease.
+</p>
 
-## Features
-- **Park Vehicle**: Add a vehicle to an available parking slot or to the waiting queue if full.
-- **Remove Vehicle**: Remove a vehicle from a slot and automatically assign the next vehicle from the waiting queue if available.
-- **Display Parking Status**: Show the current status of all parking slots, including occupied and available slots.
-- **View Waiting Queue**: Display the list of vehicles waiting for a parking slot.
+---
 
-## Requirements
-- C++ compiler (e.g., g++, Visual Studio)
-- Windows operating system (uses Windows-specific functions like `system("cls")` and `Sleep()`)
+## 📌 Overview
 
-## How to Compile and Run
-1. Ensure you have a C++ compiler installed.
-2. Compile the program using the following command:
-   ```
-   g++ ravi.cpp -o parking_system
-   ```
-   Or in Visual Studio, create a new project and add the file.
+The **Parking Management System** is a console-based application built using **C++** that simulates real-world parking operations.  
+It efficiently handles vehicle entry, exit, slot allocation, and waiting queues using core data structures.
 
-3. Run the executable:
-   ```
-   ./parking_system
-   ```
+This project is ideal for understanding **queue management, arrays, and real-time system logic**.
 
-4. Follow the on-screen menu to interact with the system.
+---
 
-## Usage
-- Enter the parking capacity when prompted.
-- Choose options from the menu:
-  - 1: Park a vehicle (enter vehicle number like PB10AB1234)
-  - 2: Remove a vehicle (enter vehicle number)
-  - 3: View parking status
-  - 4: View waiting queue
-  - 5: Exit
+## ✨ Key Features
 
-## Notes
-- Vehicle numbers are stored as strings.
-- The system clears the screen and uses delays for better user experience.
-- Maximum capacity is set to 100 slots internally, but can be adjusted in the code.
+- 🚘 **Smart Parking Allocation**  
+  Automatically assigns available slots to incoming vehicles.
+
+- ⏳ **Waiting Queue System**  
+  Maintains a FIFO queue when parking is full.
+
+- 🔄 **Auto Slot Reassignment**  
+  Assigns freed slots to waiting vehicles instantly.
+
+- 📊 **Real-time Parking Status**  
+  Displays occupied and available slots.
+
+- 🧾 **User-Friendly Console Interface**  
+  Clean and interactive menu-driven system.
+
+---
+
+## 🖼️ System Preview
+
+### 🔹 Main Menu
+<p align="center">
+  <img src="one.png" width="500"/>
+</p>
+
+### 🔹 Parking Status
+<p align="center">
+  <img src="two.png" width="500"/>
+</p>
+
+### 🔹 Vehicle Entry / Exit
+<p align="center">
+  <img src="three.png" width="500"/>
+</p>
+
+### 🔹 Waiting Queue
+<p align="center">
+  <img src="four.png" width="500"/>
+</p>
+
+---
+
+## ⚙️ Tech Stack
+
+- 💻 Language: **C++**
+- 🖥️ Platform: **Windows**
+- 📚 Concepts Used:
+  - Queue (FIFO)
+  - Arrays / Vectors
+  - Loops & Conditional Statements
+  - String Handling
+
+---
+
+## 🛠️ Installation & Setup
+
+### 🔧 Compile using g++
+
+```bash
+g++ ravi.cpp -o parking_system
